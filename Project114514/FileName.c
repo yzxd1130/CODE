@@ -3,7 +3,7 @@
 int main(void)
 
 {
-	long c = 400;
+	long c = 6000;
 	printf(" %ld min", (c / 60));
 	printf(" %ld sec", (c % 60));
 	
