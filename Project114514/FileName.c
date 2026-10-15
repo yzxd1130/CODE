@@ -3,9 +3,10 @@
 int main(void)
 
 {
-	long c = 6000;
-	printf(" %ld min", (c / 60));
-	printf(" %ld sec", (c % 60));
+	long c = 1145;
+	
+
+	printf("%dsec=%dmin%dsec", c, c / 60, c % 60);
 	
 	return 0;
 }
